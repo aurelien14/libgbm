@@ -3,7 +3,7 @@ lib_LTLIBRARIES = libgbm.la
 libgbm_la_SOURCES =	\
 	gbm.c		\
 	backend.c	\
-	common.c	#\
+	common.c
 #	backends/dri/gbm_dri.c
 	
 libgbm_la_LIBADD =	\
@@ -18,7 +18,7 @@ extdir = $(includedir)/gbm
 ext_HEADERS =		\
 	gbm.h		\
 	gbmint.h	\
-	common_drm.h	#\
+	common_drm.h
 #	backends/dri/gbm_driint.h
 
 pkgconfigdir = $(libdir)/pkgconfig
