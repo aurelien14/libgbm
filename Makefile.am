@@ -5,6 +5,7 @@ libgbm_la_SOURCES =	\
 	backend.c	\
 	common.c	\
 	backends/dri/gbm_dri.c
+	
 libgbm_la_LIBADD =	\
 	@UDEV_LIBS@
 
